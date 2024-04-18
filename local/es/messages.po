@@ -1,0 +1,35 @@
+msgid "Welcome to the Home Page"
+msgstr "Bienvenido a la Portada"
+
+msgid "Here you can find general information."
+msgstr "Aquí puedes encontrar información general."
+
+msgid "Select Language"
+msgstr "Seleccionar Idioma"
+
+msgid "Home"
+msgstr "Portada"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Predictor"
+msgstr "Predictor"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Enter Required Information:"
+msgstr "Ingresa la información requerida:"
+
+msgid "Enter text 1:"
+msgstr "Ingrese texto 1:"
+
+msgid "Enter text 2:"
+msgstr "Ingrese texto 2:"
+
+msgid "Enter text 3:"
+msgstr "Ingrese texto 3:"
+
+msgid "Process Input"
+msgstr "Procesar Entrada"

@@ -1,0 +1,35 @@
+msgid "Welcome to the Home Page"
+msgstr "Welcome to the Home Page"
+
+msgid "Here you can find general information."
+msgstr "Here you can find general information."
+
+msgid "Select Language"
+msgstr "Select Language"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Predictor"
+msgstr "Predictor"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Enter Required Information:"
+msgstr "Enter Required Information:"
+
+msgid "Enter text 1:"
+msgstr "Enter text 1:"
+
+msgid "Enter text 2:"
+msgstr "Enter text 2:"
+
+msgid "Enter text 3:"
+msgstr "Enter text 3:"
+
+msgid "Process Input"
+msgstr "Process Input"
