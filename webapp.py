@@ -111,6 +111,8 @@ def show_content(selected_language,button):
             if genero and medicamento:
                 st.success(f"Has seleccionado:\nGénero: {genero}\nMedicamento: {medicamento}")
                 # Aquí puedes agregar la lógica de procesamiento basada en las selecciones realizadas
+        
+        
 
     elif button == "Contacts" or button == "Contactos":
         st.title(selected_content["Contacts"]["title"])
@@ -128,23 +130,25 @@ def show_content(selected_language,button):
             # Separador entre contactos
             st.markdown("---")
 
-
-    
-
+st.write("inicio")
+state = None
 background_image_path = "hosp.jpg"
 background_opacity = 0.8
 set_background(background_image_path, background_opacity)
     
-st.sidebar.title("Select Language")
+st.sidebar.title("Seleccionar idioma")
 selected_language = st.sidebar.selectbox("", ("Español", "English"))
 
-buttons = [content[selected_language][key]["button"] for key in content[selected_language]]
-    
-for button in buttons:
-    if st.sidebar.button(button):
-            show_content(selected_language,button)
+state = selected_language
 
+buttons = [content[selected_language][key]["button"] for key in content[selected_language]]
+
+if selected_language != state:
+    for button in buttons:
+        if st.sidebar.button(button):
+                show_content(selected_language,button)
             
+st.write("fin")
 #if selected_language == "Dashboard":
 #    show_powerbi_dashboard()
 
