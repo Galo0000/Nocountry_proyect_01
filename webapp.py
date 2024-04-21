@@ -143,10 +143,11 @@ state = selected_language
 
 buttons = [content[selected_language][key]["button"] for key in content[selected_language]]
 
-if selected_language != state:
-    for button in buttons:
-        if st.sidebar.button(button):
-                show_content(selected_language,button)
+for button in buttons:
+    if st.sidebar.button(button):
+            show_content(selected_language,button)
+
+
             
 st.write("fin")
 #if selected_language == "Dashboard":
